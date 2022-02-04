@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FrontGAB/static/css/main.cea12f87.css",
+    "main.js": "/FrontGAB/static/js/main.666a88bf.js",
+    "static/js/787.3964010d.chunk.js": "/FrontGAB/static/js/787.3964010d.chunk.js",
+    "index.html": "/FrontGAB/index.html",
+    "main.cea12f87.css.map": "/FrontGAB/static/css/main.cea12f87.css.map",
+    "main.666a88bf.js.map": "/FrontGAB/static/js/main.666a88bf.js.map",
+    "787.3964010d.chunk.js.map": "/FrontGAB/static/js/787.3964010d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cea12f87.css",
+    "static/js/main.666a88bf.js"
+  ]
+}
