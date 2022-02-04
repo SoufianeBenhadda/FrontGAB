@@ -20,7 +20,7 @@ export default function Info(props) {
 function processPaiment(transf){
 transf.status="PAYE"
 
- axios.put("http://localhost:8086/transfert/transfertN/"+transf.codeT, transf).then(response=>{ 
+ axios.put("https://transfert-servicee.herokuapp.com/transfert/transfertN/"+transf.codeT, transf).then(response=>{ 
     Swal.fire(
         'Printing Money...',
         'coming soon...',
@@ -32,7 +32,7 @@ transf.status="PAYE"
 }
 useEffect(async()=>{
 
-                    await axios.get("http://localhost:8085/clients/cin/"+props.transfert.clientDonneur)
+                    await axios.get("https://client-servicee.herokuapp.com/clients/cin/"+props.transfert.clientDonneur)
                     .then(res=>{
                         console.log(res.data);
                         setValues({...values,client:res.data})

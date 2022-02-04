@@ -1,5 +1,4 @@
 {
-  "proxy": "localhost:8086",
   "name": "frontgab",
   "version": "0.1.0",
   "private": true,

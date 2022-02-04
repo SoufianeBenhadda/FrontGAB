@@ -43,7 +43,7 @@ export default function FormGAB(props) {
 
    function  getTransfert() {
     // GET request using fetch with error handling
-    axios.get('http://localhost:8086/transfertN/ref/'+values.refTransfert).then((response)=>{
+    axios.get('https://transfert-servicee.herokuapp.com/transfert/transfertN/ref/'+values.refTransfert).then((response)=>{
       
     console.log(response.data)
     if(response.data.status==="PAYE"){
